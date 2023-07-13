@@ -1,0 +1,18 @@
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <View
+        android:background="@color/gray"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:background="@color/gray"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

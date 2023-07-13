@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien">
+
+    <TextView
+        android:id="@+id/tv_tambahbuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:text="TAMBAH BUKU"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textAlignment="center"></TextView>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/et_judul"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:text="JUDUL" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/et_namapenulis"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="215dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:text="PENULIS" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/et_tahunterbit"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="291dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:text="TAHUN TERBIT" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/et_kategori"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="364dp"
+        android:background="@color/white"
+
+        android:paddingLeft="10dp"
+
+        android:text="KATEGORI"
+         />
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="436dp"
+        android:background="@color/white"
+        android:inputType="text"
+
+        android:paddingLeft="10dp"
+
+        android:text="URL COVER BUKU" />
+
+    <Button
+        android:id="@+id/createfinalbtn"
+        android:layout_width="124dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/url"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="@color/green"
+        android:gravity="center"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="TAMBAH"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
